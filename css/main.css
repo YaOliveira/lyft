@@ -1,3 +1,55 @@
-/*
- * Estilos de tu proyecto
- */
+/* cabeçalho / menu */
+
+*{
+    margin: 0;
+}
+
+
+/* diminuir tamanho do logo */
+
+.logo-fluid{
+    display: flex;
+    width: 7%;
+    /* justify-content: space-evenly; */
+ }
+
+/* background*/
+/* html { 
+    background: url(imageassets/images/hero.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }  */
+ .menu{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff !important; 
+    text-decoration: none !important; ;
+    font-size: 20px;
+    
+}
+ .navHeader{
+    background:green;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 30px;
+    
+   
+}
+
+ .navSpace{
+    
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    padding: 1rem;
+    text-align: justify;
+    line-height: 20px; 
+    margin: auto;
+}
+
+
+.menu a:hover{
+    color:#FF00BF;
+}
