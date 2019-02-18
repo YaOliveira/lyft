@@ -5,51 +5,78 @@
 }
 
 
-/* diminuir tamanho do logo */
+/* dMenu - Navbar*/
 
 .logo-fluid{
     display: flex;
     width: 7%;
-    /* justify-content: space-evenly; */
+    justify-content: flex-start;
+    
  }
 
-/* background*/
-/* html { 
-    background: url(imageassets/images/hero.gif) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
- }  */
- .menu{
+.menu{
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff !important; 
-    text-decoration: none !important; ;
-    font-size: 20px;
+    font-size: 1.0em;
+    color: #ffffff;
+    text-decoration:none;
     
+      
 }
- .navHeader{
+.navHeader{
     background:green;
-    /* display: flex;
-    justify-content: space-between; */
     padding: 30px;
-    
-   
+    width: 100vw
+     
+
 }
 
- .navSpace{
+.navSpace{
     
-    width: 30vw;
+    width: 40vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     padding: 1rem;
     text-align: justify;
     line-height: 20px; 
     margin: auto;
+    list-style-type: none;
+    
 }
 
-
-.menu a:hover{
+.menu:hover{
     color:#FF00BF;
+}
+
+input{
+    background: none;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-width: 0.1em 0.1em 0.1em 0.1em;
+    border-style: solid;
+    font-size: 1em;
+    padding-bottom: 0.2em;
+    padding-top:0.2em;
+}
+footer{
+    background-color: #333447;
+   
+}
+
+.bg-image{
+    background-image: url("assets/images/phone.png")
+}
+
+.styleFoot{
+  display: inline-table;
+  
+}
+
+.styleFoot a, h6{
+  text-decoration:none;
+  color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  
 }
