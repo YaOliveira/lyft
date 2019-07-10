@@ -9,7 +9,7 @@
 
 ## Resultado Obtido
 
-O resultado, você poderá consultar no [**link do meu github page**](https://yaoliveira.github.io/lift/)
+O resultado, você poderá consultar no [**link do meu github page**](https://yaoliveira.github.io/lyft/)
 
 ## Fluxo de trabalho
 
